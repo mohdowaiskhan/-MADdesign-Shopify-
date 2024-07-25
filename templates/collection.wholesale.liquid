@@ -1,0 +1,33 @@
+{% if customer.tags contains 'Wholesale' %}
+{% section 'static-collection-wholesale' %}
+<!-- <div id="cups">
+  <h3>Stay on Cups</h3>  <h3><a href="https://shop.maddesignms.com/collections/wholesale/#napkins">Scroll to Napkins</a></h3>
+  {% section 'dynamic-collection-wholesale' %}</div>
+<div id="napkins">
+  <h3><a href="https://shop.maddesignms.com/collections/wholesale/#cups">Scroll to Cups</a></h3>  <h3>Stay on Napkins</h3>
+  {% section 'dynamic-collection-wholesale2' %}</div> -->
+{% else %}
+<h1>Please <a href="https://shop.maddesignms.com/account/login#wsg-title">login</a> as wholesale customer to view this page</h1>
+{% endif %}
+<style>
+  .page-body-content {
+    text-align: center;
+    margin: 2em;
+}
+  .collection-sidebar-menu {
+    text-align: left;}
+  .mh {
+    color: #56c6d0 !important;
+    font-size:18px;
+  }
+  ul.sh {
+    color: black;
+}
+  a.mh:hover {
+    color: black;
+}
+  ul.sh:hover {
+    color: black;
+}
+  
+</style>
